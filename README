@@ -1,0 +1,5 @@
+The Mazeworld problem involves discovering a path that will bring a robot from an initial state to a final goal state within a maze containing open floor tiles and walls. An extension of this problem involves having multiple robots and coordinating them in order to move them all from their respective initial states to their respective final goal states. A third variation involves a blind robot which does not know its position in the maze. In this case, the goal is to figure out a sequence of moves that will eventually result in the robot believing that it can only be on the final goal state.
+
+The implementation uses A* Search with different heuristics in order to solve each of the problems. There is a performance comparison between A* and BFS/DFS in the implementation as well.
+
+Robin
